@@ -2,7 +2,7 @@ var fs = require("fs");
 var path = require("path");
 
 fs.readdir(process.argv[2],function(err,files){
-    if( err ){
+    if ( err ){
         console.log(err);
     } else {
         files.forEach(function(fileName){
